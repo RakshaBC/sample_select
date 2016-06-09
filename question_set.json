@@ -1,7 +1,7 @@
 [
   {
-    question: "What is a common misperception about you?"
-    pros: [
+    "question:" "What is a common misperception about you?",
+    "pros:" [
       "You did a excellent job with this question. ",
       "a) Awesome elevator pitch.",
       "Awesome that you tried to keep it under 60 seconds.       ",
@@ -10,7 +10,7 @@
       " Good use of industry terminology. ",
       "you have a lot of skills. Focus on a few and talk about those. "
     ],
-    cons: [
+    "cons:" [
       " Good job but you should keep this to 60 seconds. ",
       " This is your elevator pitch. Should spend more time practicing this. ",
       " Use the PPF technique. ( Talk about your Past, Present and Future). ",
@@ -21,15 +21,15 @@
     ]
   },
   {
-    question: "What is a common perception (2) about you?"
-    pros: [
+    "question:" "What is a common perception (2) about you?",
+    "pros:" [
       "You did a stupendous job with this question. ",
       "Craaazy elevator pitch.",
       "Awesome that you tried to keep it under 60 seconds.       ",
       "Great way of emphasising on your skills and your experience. ",
       "you have a lot of skills. Focus on a few and talk about those. "
     ],
-    cons: [
+    "cons:" [
       " Good job but you should keep this to 60 seconds. ",
       " This is your elevator pitch. Should spend more time practicing this. ",
       " Use the PPF technique. ( Talk about your Past, Present and Future). ",
@@ -39,15 +39,15 @@
     ]
   },
   {
-    question: "What is a common misperception (3) Lala about you?"
-    pros: [
+    "question:" "What is a common misperception (3) Lala about you?",
+    "pros:" [
       "You did a excellent job with this question. ",
       "a) Awesome elevator pitch.",
       "Awesome that you tried to keep it under 60 seconds.       ",
       "Great way of emphasising on your skills and your experience. ",
       "you have a lot of skills. Focus on a few and talk about those. "
     ],
-    cons: [
+    "cons:" [
       " Good job but you should keep this to 60 seconds. ",
       "You have a severe Lack of skills",
       " This is your elevator pitch. Should spend more time practicing this. ",
@@ -57,14 +57,14 @@
     ]
   },
   {
-    question: "What is a common misperception about your family?"
-    pros: [
+    "question:" "What is a common misperception about your family?",
+    "pros:" [
       "You did a excellent job with this question. ",
       "a) Awesome elevator pitch.",
       " Good use of industry terminology. ",
       "you have a lot of skills. Focus on a few and talk about those. "
     ],
-    cons: [
+    "cons:" [
       " Good job but you should keep this to 60 seconds. ",
       " This is your elevator pitch. Should spend more time practicing this. ",
       " leadership positions or organized any events etc. ",
@@ -73,15 +73,15 @@
     ]
   },
   {
-    question: "What is a common misperception about your wife?"
-    pros: [
+    "question:" "What is a common misperception about your wife?",
+    "pros:" [
       "You did a excellent job with this question. ",
       "a) Awesome elevator pitch.",
       "Awesome that you tried to keep it under 60 seconds.",
       " Good use of industry terminology. ",
       "you have a lot of skills. Focus on a few and talk about those. "
     ],
-    cons: [
+    "cons:" [
       " Good job but you should keep this to 60 seconds. ",
       " This is your elevator pitch. Should spend more time practicing this. ",
       " You sould talk about what activites or clubs your were part of on Campus. if you held any leadership positions or organized any events etc. ",

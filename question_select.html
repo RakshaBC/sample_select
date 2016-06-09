@@ -1,9 +1,32 @@
-<!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+<html>
+<head>
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 
-<!-- jQuery library -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
 
-<!-- Latest compiled JavaScript -->
-<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <!-- Latest compiled JavaScript -->
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+</head>
 
+<div class="container">
+  <div class="panel panel-info">
+    <div class="panel-heading">Enter Feedback</div>
+    <div class="panel-body">
+      <div class="questions-holder">
+
+      </div>
+    </div>
+  </div>
+</div>
+
+<script type="text/javascript">
+ 
+  var data_handled = {};
+
+  $.get("https://raw.githubusercontent.com/RakshaBC/sample_select/master/question_set.json", function(data, status){
+    data_handled = data;
+    console.log("Length of date: "+data.length, data);
+  });
+</script>
