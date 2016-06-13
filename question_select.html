@@ -2,18 +2,14 @@
 <head>
   <!-- Latest compiled and minified CSS -->
   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-
   <!-- jQuery library -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
 
   <!-- Latest compiled JavaScript -->
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-    <!-- Latest compiled and minified CSS -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.10.0/css/bootstrap-select.min.css">
-  <!-- Latest compiled and minified JavaScript -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.10.0/js/bootstrap-select.min.js"></script>
-  <!-- (Optional) Latest compiled and minified JavaScript translation files -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.10.0/js/i18n/defaults-*.min.js"></script>
+  
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.3/css/select2.min.css" rel="stylesheet" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.3/js/select2.min.js"></script>
 </head>
 
 <div class="container" id="feedback">
@@ -30,8 +26,18 @@
 <script type="text/javascript">
  //tags input
   function initSelect(elem_id){
-    $("#pros_"+i).selectpicker({livesearch: true});
-    $("#cons_"+i).selectpicker({livesearch: true});
+    $("#pros_"+i).select2({
+      tags: "true",
+      placeholder: "Select an option",
+      allowClear: true
+    });
+    // .selectpicker({livesearch: true});
+    $("#cons_"+i).select2({
+      tags: "true",
+      placeholder: "Select an option",
+      allowClear: true
+    });
+    // .selectpicker({livesearch: true});
   };
 
   var template = '<div class="panel panel-info"><div class="panel-heading">repl_heading</div><div class="panel-body">repl_body</div></div>';
