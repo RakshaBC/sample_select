@@ -39,12 +39,9 @@
     });
     // .selectpicker({livesearch: true});
   };
-
   var template = '<div class="panel panel-info"><div class="panel-heading">repl_heading</div><div class="panel-body">repl_body</div></div>';
-  
   var sel_temp = '<div class="col-md-6 col-sm-6"><select id="select_id" multiple class="select form-control">replace_me</select></div>';
   var opt_temp = '<option>my_label</option>';
-
   $.get("https://raw.githubusercontent.com/RakshaBC/sample_select/master/question_set2.json", function(data, status){
     data = JSON.parse(data);
     
@@ -64,12 +61,9 @@
       }
       cons = sel_temp.replace("replace_me", cons);
       cons = cons.replace("select_id", "cons_"+i);
-
-      //console.log("Pros are now: ",pros);
-      //console.log("cons are now: ",cons);
-
+      console.log("Pros are now: ",pros);
+      console.log("cons are now: ",cons);
       sample_data = sample_data.replace("repl_body", pros+cons);
-
       $("#feedback").append(sample_data);
       initSelect(i);
     }
