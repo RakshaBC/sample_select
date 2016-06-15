@@ -22,7 +22,31 @@
 			" Talk about your partime job or internship in a more profesional way. ",
 			" Think about what skills you have learned from your partime job or internship that you can utilize."
 		]
+	},
+
+	{
+	    "question" :"Could you tell me about your University?",
+	    "pros" : 
+         [
+		    "You did a excellent job with this question. ",
+			"Great way of emphasising on your skills and your experience.", 
+			"Very good and informative. ",
+			" Good way of showcasing your skills and leadership abiltiies.",
+			"You seemed very passionate about the answer which is very good."        
+        ],
+        "cons" : 
+        [
+        	"Good job but you should keep this to 60 seconds. ",
+			"This should be a way to showcase why you are doing your ""major'. Should spend more time practicing this. ",
+			" Use the PPF technique. ( Talk about your Past, Present and Future). ",
+			" Talk about your profesional expereinces more and less about personal life. ",
+			" You sould talk about what activites or clubs your were part of on Campus. if you held any leadership positions or organized any events etc. ",
+			" Talk about why you chose University",
+			" Talk about a study aborad or a course that you really liked and whay your learned from it. "
+         ]    
 	}
+
+
 ]
 
 
